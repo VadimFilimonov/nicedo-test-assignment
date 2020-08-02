@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NiceDo - Test Task - Frontend Developer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <table>
+    <thead title="Двойной клик чтобы отсортировать таблицу">
+      <tr>
+        <th>ID</th>
+        <th>Наименование</th>
+        <th>Расходы</th>
+        <th>Доходы</th>
+        <th>Коэффициент</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Огурцы</td>
+        <td>500</td>
+        <td>5000</td>
+        <td>1.5</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Томаты</td>
+        <td>1000</td>
+        <td>3000</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Яблоки</td>
+        <td>200</td>
+        <td>800</td>
+        <td>1.2</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Персики</td>
+        <td>700</td>
+        <td>200</td>
+        <td>0.3</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Арбузы</td>
+        <td>400</td>
+        <td>75</td>
+        <td>0.8</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Сливы</td>
+        <td>3000</td>
+        <td>3000</td>
+        <td>1.9</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Малина</td>
+        <td>50</td>
+        <td>4000</td>
+        <td>2.7</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <ol>
+    <li>Отсортировать таблицу - двойной клик по заголовку колонки;</li>
+    <li>Редактировать ячейку - клик по ней;</li>
+    <li>Сумма колонок вычисляется при загрузке страницы и после каждого редактирования;</li>
+    <li>Перенести столбец - клик по заголовку колонки и не отпуская тянем в сторону.</li>
+  </ol>
+  <hr>
+  <blockquote>
+    Если хоть в одной ячейке не цифра - в сумме будет количество строк.
+  </blockquote>
+  <a href="nicedo-test-tast-front-end-developer-vadim-filimonov.zip" download>Скачать исходный код</a>
+  <script src="sort.js"></script>
+  <script src="edit.js"></script>
+  <script src="sum.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/table-dragger@1.0.3/dist/table-dragger.min.js"></script>
+  <script src="grab.js"></script>
+</body>
+</html>

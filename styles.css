@@ -1,0 +1,48 @@
+table {
+  position: relative;
+  width: 100%;
+  table-layout: fixed;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  table {
+    display: block;
+    table-layout: auto;
+    overflow-x: auto;
+  }
+}
+
+thead {
+  cursor: grab;
+  user-select: none;
+  background: #ddd;
+}
+
+tfoot {
+  cursor: not-allowed;
+  background: #eee;
+}
+
+th,
+td {
+  border: 1px solid #efefef;
+  padding: 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  width: calc(100% - 40px);
+  box-sizing: border-box;
+}
+
+button {
+  width: 40px;
+}
